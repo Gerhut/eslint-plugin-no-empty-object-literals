@@ -1,0 +1,36 @@
+{
+  "name": "eslint-plugin-no-empty-object-literals",
+  "version": "0.0.0",
+  "description": "ESLint plugin for disabling empty object literals (`{}`).",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "eslint .",
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gerhut/eslint-plugin-no-empty-object-literals.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "George Cheng <Gerhut@GMail.com>",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/Gerhut/eslint-plugin-no-empty-object-literals/issues"
+  },
+  "homepage": "https://github.com/Gerhut/eslint-plugin-no-empty-object-literals#readme",
+  "devDependencies": {
+    "@types/eslint": "^6.1.9",
+    "@types/estree": "0.0.44",
+    "eslint": "^6.8.0",
+    "eslint-plugin-eslint-plugin": "^2.2.1",
+    "eslint-plugin-node": "^11.1.0",
+    "nyc": "^15.0.1"
+  },
+  "peerDependencies": {
+    "eslint": "^6.8.0"
+  }
+}
